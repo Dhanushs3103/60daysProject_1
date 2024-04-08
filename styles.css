@@ -3,11 +3,9 @@ body {
 }
 
 #root {
-    border:1px solid red
 }
 
 #topPoint {
-    border:1px solid blue;
     height: 30px;
 }
 
@@ -19,15 +17,21 @@ body {
     margin-right: 40px;
 }
 
+#topPointChild>div {
+    height: 30px;
+    border: 1px solid gray;
+    padding: 0px 19px;
+    display: flex;
+    align-items: center;
+}
+
 #topPointChild>div>p {
     margin: 0;
     font-size: 14px;
-    border: 1px solid gray;
-    padding: 0px 19px;
     color: #666666;
 }
 
-#topPointChild>div>img {
+#flag {
     height: 14px;
     width: 14px;
     padding-top: 2px;
