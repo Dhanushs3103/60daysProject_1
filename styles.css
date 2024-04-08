@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #root {
     border:1px solid red
 }
@@ -11,16 +15,21 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    height: 30px;
+    height: 100%;
+    margin-right: 40px;
 }
 
 #topPointChild>div>p {
     margin: 0;
     font-size: 14px;
-    
+    border: 1px solid gray;
+    padding: 0px 19px;
+    color: #666666;
 }
 
 #topPointChild>div>img {
     height: 14px;
     width: 14px;
+    padding-top: 2px;
+    padding-left: 10px;
 }
