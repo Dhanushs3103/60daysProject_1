@@ -6,13 +6,18 @@
 #topPointChild {
     border: 1px solid blue;
     display: flex;
+    justify-content: end;
 }
 
 #topPointChild > div > p {
     font-size: 14px;
 }
 
-#flag 
+#flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #flag > img {
     height: 14px;
