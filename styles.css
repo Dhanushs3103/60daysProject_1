@@ -8,6 +8,8 @@
     display: flex;
     justify-content: end;
     gap: 10px;
+    margin-right: 40px;
+    padding-right: 10px;
 }
 
 #topPointChild > div > p {
