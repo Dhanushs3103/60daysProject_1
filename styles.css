@@ -5,21 +5,24 @@
 
 #topPointChild {
     border: 1px solid blue;
+    height: fit-content;
     display: flex;
     justify-content: end;
-    gap: 10px;
-    margin-right: 40px;
+    margin-right: 60px;
     padding-right: 10px;
 }
 
 #topPointChild > div > p {
     font-size: 14px;
+    border-left:1px solid gray ;
+    padding: 0 10px;
 }
 
 #flag {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-left:1px solid gray ;
 }
 
 #flag > img {
