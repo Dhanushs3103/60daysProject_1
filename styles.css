@@ -1,31 +1,41 @@
 #topPoint{
     border: 1px solid red;
-    padding: 10px;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 #topPointChild {
     border: 1px solid blue;
+    width: 95%;
+    margin: auto;
     height: fit-content;
     display: flex;
     justify-content: end;
     padding-right: 10px;
 }
 
-#topPointChild > div > p {
-    font-size: 14px;
+#topPointChild > div {
     border-left:1px solid gray ;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topPointChild > div > p {
+    font-size: 13.5px;
     padding: 0 15px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #flag {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 14px;
+    height: 30px;
     padding: 1px 15px;
-    margin-top: 15px;
     border-left:1px solid gray ;
 }
 
