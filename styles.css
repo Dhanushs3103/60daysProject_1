@@ -1,6 +1,8 @@
 #topPoint{
     border: 1px solid red;
     padding: 10px;
+    width: 90%;
+    margin: auto;
 }
 
 #topPointChild {
@@ -8,7 +10,6 @@
     height: fit-content;
     display: flex;
     justify-content: end;
-    margin-right: 60px;
     padding-right: 10px;
 }
 
@@ -22,6 +23,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 14px;
+    padding: 1px;
+    margin-top: 15px;
     border-left:1px solid gray ;
 }
 
