@@ -16,7 +16,7 @@
 #topPointChild > div > p {
     font-size: 14px;
     border-left:1px solid gray ;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 #flag {
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     height: 14px;
-    padding: 1px;
+    padding: 1px 15px;
     margin-top: 15px;
     border-left:1px solid gray ;
 }
