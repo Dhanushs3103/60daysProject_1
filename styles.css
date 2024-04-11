@@ -69,4 +69,39 @@ body {
 #navPart1 {
     border: 2px solid red;
     display: flex;
+    gap: 20px;
+}
+
+#navPart2 {
+    border: 2px solid green;
+    display: flex;
+}
+
+#womenNav2 {
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#saleNav2 {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+#saleNav2 > P {
+    margin: 0;
+    font-size: 14px;
+}
+
+#menNav2 {
+    border: 2px solid black;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
 }
