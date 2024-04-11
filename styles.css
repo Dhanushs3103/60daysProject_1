@@ -29,7 +29,7 @@ body {
     font-size: 14px;
     padding: 0 18px;
     font-family: "PT Sans", sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     font-style: normal;
     color: #757575;
 }
@@ -62,7 +62,7 @@ body {
 }
 
 #navbar {
-    height: 120px;
+    height: 115px;
     border: 1px solid black;
 }
 
@@ -73,8 +73,10 @@ body {
 }
 
 #navPart2 {
-    border: 2px solid green;
     display: flex;
+    justify-content: space-around;
+    gap: 260px;
+    background-color:#26e066 ;
 }
 
 #womenNav2 {
@@ -84,11 +86,12 @@ body {
     padding: 5px 10px;
     text-align: center;
     font-size: 13px;
-    margin: 9px 0;
+    margin: 11px 0 9px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
 }
 
 #saleNav2 {
-    border: 2px solid black;
     width: fit-content;
     height: fit-content;
     text-align: center;
@@ -97,6 +100,8 @@ body {
 #saleNav2 > P {
     margin: 0;
     font-size: 14px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 900;
 }
 
 #menNav2 {
@@ -106,5 +111,7 @@ body {
     padding: 5px;
     text-align: center;
     font-size: 13px;
-    margin: 9px 0;
+    margin: 11px 0 9px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
 }
