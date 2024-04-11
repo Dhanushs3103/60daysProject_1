@@ -84,12 +84,13 @@ body {
     padding: 5px 10px;
     text-align: center;
     font-size: 13px;
+    margin: 9px 0;
 }
 
 #saleNav2 {
     border: 2px solid black;
     width: fit-content;
-    padding: 5px 10px;
+    height: fit-content;
     text-align: center;
 }
 
@@ -101,7 +102,9 @@ body {
 #menNav2 {
     border: 2px solid black;
     width: 70px;
+    height: fit-content;
     padding: 5px;
     text-align: center;
     font-size: 13px;
+    margin: 9px 0;
 }
