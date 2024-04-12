@@ -70,6 +70,24 @@ body {
     border: 2px solid red;
     display: flex;
     gap: 20px;
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+}
+
+#logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border:1px solid blue;
+    height: fit-content;
+    width: 75px;
+    background-color: ;
+    padding: 1px;
+}
+
+#logo > p {
+    margin: 0;
+    font-size: 38px;
+    letter-spacing: -5px;
 }
 
 #navPart2 {
