@@ -62,7 +62,7 @@ body {
 }
 
 #navbar {
-    height: 115px;
+    height: fit-content;
     border: 1px solid black;
 }
 
@@ -83,35 +83,39 @@ body {
     border: 2px solid black;
     width: fit-content;
     height: fit-content;
-    padding: 5px 10px;
+    padding: 4px 10px;
     text-align: center;
     font-size: 13px;
     margin: 11px 0 9px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 #saleNav2 {
     width: fit-content;
     height: fit-content;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #saleNav2 > P {
-    margin: 0;
     font-size: 14px;
     font-family: "Noto Sans", sans-serif;
-    font-weight: 900;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 #menNav2 {
     border: 2px solid black;
     width: 70px;
     height: fit-content;
-    padding: 5px;
+    padding: 4px;
     text-align: center;
     font-size: 13px;
     margin: 11px 0 9px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 700;
+    letter-spacing: 1px;
 }
