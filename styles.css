@@ -237,3 +237,78 @@ body {
     max-width: 100%;
 }
 
+#bannerLogo {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+#bannerLogo>p {
+   color: #FFFFFF;
+   font-size: 50px;
+   margin: 0;
+   font-family: futura-pt, sans-serif ;
+   font-weight: bold;
+}
+
+#bannerLogoDown {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 2px 10px;
+}
+
+#bannerLogoDown>p {
+   color: #FFFFFF;
+   font-size: 16px;
+   margin: 0;
+   font-family: futura-pt, sans-serif ;
+   font-weight: 400;
+}
+
+#shopWomen {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid black;
+    height: 44px;
+}
+
+#shopWomen>p {
+   color: #000000;
+   margin: 0 9px;
+   height: fit-content;
+   font-family: futura-pt, sans-serif ;
+   font-weight: bold;
+   padding: 8px 10px;
+   letter-spacing: 2px;
+}
+
+#shopMen {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    border: 1px solid black;
+    height: 44px;
+}
+
+#shopMen>p {
+   color: #000000;
+   margin: 0 9px;
+   height: fit-content;
+   font-family: futura-pt, sans-serif ;
+   font-weight: bold;
+   padding: 8px 10px;
+   letter-spacing: 2px;
+}
+
+
+
