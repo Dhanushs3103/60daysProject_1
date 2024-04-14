@@ -232,9 +232,24 @@ body {
     letter-spacing: 1px;
 }
 
+#heroSection {
+    position: relative;
+}
+
 #banner {
     min-width: auto;
     max-width: 100%;
+}
+
+#bannerLogoItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    position: absolute;
+    top: 28%;
+    left: 41%;
 }
 
 #bannerLogo {
@@ -242,15 +257,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: fit-content;
 }
 
 #bannerLogo>p {
    color: #FFFFFF;
-   font-size: 50px;
+   font-size: 58px;
    margin: 0;
    font-family: futura-pt, sans-serif ;
    font-weight: bold;
+   padding: 5px 10px;
 }
 
 #bannerLogoDown {
@@ -277,6 +293,10 @@ body {
     align-items: center;
     width: fit-content;
     height: 44px;
+    position: absolute;
+    top: 46%;
+    left: 37.5%;
+    cursor: pointer;
 }
 
 #shopWomen>p {
@@ -285,7 +305,7 @@ body {
    height: fit-content;
    font-family: futura-pt, sans-serif ;
    font-weight: bold;
-   padding: 8px 10px;
+   padding: 15px 10px;
    letter-spacing: 2px;
 }
 
@@ -296,6 +316,10 @@ body {
     align-items: center;
     width: 159px;
     height: 44px;
+    position: absolute;
+    top: 46%;
+    left: 51%;
+    cursor: pointer;
 }
 
 #shopMen>p {
@@ -304,7 +328,7 @@ body {
    height: fit-content;
    font-family: futura-pt, sans-serif ;
    font-weight: bold;
-   padding: 8px 10px;
+   padding: 15px 10px;
    letter-spacing: 2px;
 }
 
@@ -314,11 +338,15 @@ body {
     justify-content: space-around;
     align-items: center;
     height: 53px;
-    width: 98%;
+    width: 97%;
+    position: absolute;
+    top: 91.5%;
+    left: 1.5%;
 }
 
 #bannerBottom1 {
     width: fit-content;
+    cursor: pointer;
 }
 
 #bannerBottom1 > p {
