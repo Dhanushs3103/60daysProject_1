@@ -88,30 +88,40 @@ body {
 }
 
 #womenNav {
-    border-left: 1px solid gray;
+    border-left: 1px solid rgb(80, 79, 79);
     color: #F4F4F4;
     font-family: "Poppins", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 15px;
     padding: 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#womenNav:hover {
+    cursor: pointer;
+    background-color: #3c3b3b;
+}
+
 #menNav {
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+    border-left: 1px solid rgb(80, 79, 79);
+    border-right: 1px solid rgb(80, 79, 79);
     padding: 0 30px;
     color: #F4F4F4;
     font-family: "Poppins", sans-serif ;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 2px;
     font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#menNav:hover {
+    cursor: pointer;
+    background-color: #3c3b3b;
 }
 
 #rootSearch {
@@ -208,15 +218,23 @@ body {
     width: fit-content;
     height: fit-content;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 #saleNav2 > P {
-    font-size: 14px;
+    font-size: 13px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 800;
     letter-spacing: 2px;
+    margin: 0;
+}
+
+#saleNavP {
+    font-size: 14px !important;
+    word-spacing: 3px !important;
+    height: fit-content;
 }
 
 #menNav2 {
@@ -249,7 +267,7 @@ body {
     align-items: center;
     width: fit-content;
     position: absolute;
-    top: 28%;
+    top: 35%;
     left: 41%;
 }
 
@@ -295,7 +313,7 @@ body {
     width: fit-content;
     height: 44px;
     position: absolute;
-    top: 46%;
+    top: 53%;
     left: 37.5%;
     cursor: pointer;
 }
@@ -318,7 +336,7 @@ body {
     width: 159px;
     height: 44px;
     position: absolute;
-    top: 46%;
+    top: 53%;
     left: 51%;
     cursor: pointer;
 }
@@ -422,6 +440,10 @@ body {
 #payments > img {
     width: 45px;
     height: 28px;
+}
+
+#footer {
+    border: 1px solid red;
 }
 
 
