@@ -444,7 +444,76 @@ body {
 
 #footer {
     border: 1px solid red;
+    padding: 20px;
 }
 
+.footerHeads{
+    font-size: 14px !important;
+    color: #666666 !important;
+    font-family: futura-pt, sans-serif ;
+    font-weight: bolder !important;
+    letter-spacing: 2px !important;
+    cursor:none;
+}
 
+.footerHeads:hover {
+    cursor:default !important;
+}
 
+#helpAndInfo{
+    margin: 10px;
+    width: fit-content;
+}
+
+#helpAndInfo > p {
+    color: #666666 ;
+    font-family: futura-pt, sans-serif ;
+    font-size: 14px;
+    font-weight: 100;
+
+}
+
+#helpAndInfo > p:hover {
+    cursor: pointer;
+    color: #0770Cf;
+}
+
+#aboutAsos{
+    margin: 10px;
+    width: fit-content;
+}
+
+#aboutAsos > p {
+    color: #666666 ;
+    font-family: futura-pt, sans-serif ;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#aboutAsos > p:hover {
+    cursor: pointer;
+    color: #0770Cf;
+}
+
+#moreAsos{
+    margin: 10px;
+    width: fit-content;
+}
+
+#moreAsos>p {
+    color: #666666 ;
+    font-family: futura-pt, sans-serif ;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+#moreAsos>p:hover {
+    cursor: pointer;
+    color: #0770Cf;
+}
+
+#shopingFrom{
+    border: 1px solid green;
+    margin: 10px;
+    width: fit-content;
+}
