@@ -276,7 +276,6 @@ body {
     justify-content: center;
     align-items: center;
     width: fit-content;
-    border: 1px solid black;
     height: 44px;
 }
 
@@ -296,7 +295,6 @@ body {
     justify-content: center;
     align-items: center;
     width: 159px;
-    border: 1px solid black;
     height: 44px;
 }
 
@@ -308,6 +306,50 @@ body {
    font-weight: bold;
    padding: 8px 10px;
    letter-spacing: 2px;
+}
+
+#bannerBottom {
+    display: flex;
+    background-color: #2D2D2D;
+    justify-content: space-around;
+    align-items: center;
+    height: 53px;
+    width: 98%;
+}
+
+#bannerBottom1 {
+    width: fit-content;
+}
+
+#bannerBottom1 > p {
+    margin: 0;
+    font-family: futura-pt, sans-serif ;
+    font-weight: bolder;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    
+}
+
+#bannerBottom1Min {
+    font-family: futura-pt, sans-serif ;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 11px;
+    letter-spacing: 0px;
+}
+
+#bannerBottom2 {
+    width: fit-content;
+}
+
+#bannerBottom2 > p {
+    margin: 0;
+    font-family: futura-pt, sans-serif ;
+    font-weight: bolder;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    text-align: left;
+    
 }
 
 
