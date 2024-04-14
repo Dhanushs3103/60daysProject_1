@@ -648,6 +648,7 @@ body {
     font-size: 12px;
     font-weight: 100;
     word-spacing: 1px;
+    /* border-radius: 20px; */
     padding-right: 10px !important;
     border: none !important;
 }
