@@ -234,6 +234,7 @@ body {
 
 #heroSection {
     position: relative;
+    height: fit-content;
 }
 
 #banner {
@@ -336,6 +337,7 @@ body {
     display: flex;
     background-color: #2D2D2D;
     justify-content: space-around;
+    gap: 200px;
     align-items: center;
     height: 53px;
     width: 97%;
@@ -378,6 +380,48 @@ body {
     letter-spacing: 2px;
     text-align: left;
     
+}
+
+#socialPayments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+#social {
+    width: fit-content;
+    display: flex;
+    gap: 45px;
+}
+
+#social > img {
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+}
+
+#social > img:hover {
+    cursor: pointer;
+    border: 1px solid #0770Cf;
+}
+
+#payments {
+    border-left: 1px solid rgb(173, 172, 172);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 45px;
+    padding-left: 50px;
+}
+
+#payments > img {
+    width: 45px;
+    height: 28px;
 }
 
 
